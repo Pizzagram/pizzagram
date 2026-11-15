@@ -23,7 +23,7 @@ function SuccessContent() {
         </h1>
 
         <p className="quote text-ink/70 text-base leading-relaxed mb-2">
-          Ваш заказ оплачен и принят в работу. Оператор свяжется с вами в течение&nbsp;5&nbsp;минут.
+          Ваш заказ оплачен и принят в работу.
         </p>
 
         {orderId && (
@@ -38,12 +38,6 @@ function SuccessContent() {
             className="font-display uppercase tracking-wider text-sm px-6 py-3 border-2 border-ink bg-crimson text-cream hover:bg-ink transition-colors"
           >
             На главную
-          </Link>
-          <Link
-            href="/account"
-            className="font-display uppercase tracking-wider text-sm px-6 py-3 border-2 border-ink bg-cream hover:bg-ink hover:text-cream transition-colors"
-          >
-            Мои заказы
           </Link>
         </div>
       </div>
