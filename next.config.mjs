@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: process.env.VERCEL_ENV === "production" ? "https://www.pizzagram.ru" : undefined,
   images: {
     unoptimized: true,
     remotePatterns: [
